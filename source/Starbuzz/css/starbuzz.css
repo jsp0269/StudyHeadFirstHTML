@@ -5,18 +5,18 @@ body {
     margin: 0px;
 }
 
-#header {
+header.top {
     background-color: #675c47;
     margin: 10px 10px 0px 10px;
     height: 108px;
     text-align: center;
 }
 
-#header img#headerLogo {
+header img#headerLogo {
     float: left;
 }
 
-#header img#headerSlogan {
+header img#headerSlogan {
     float: right;
 }
 
@@ -27,6 +27,35 @@ body {
     top: 30px;
     left: 365px;
     */
+}
+
+nav {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #954b4b;
+}
+
+nav ul li.selected {
+    background-color: #c8b99c;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
 }
 
 #coupon {
@@ -57,7 +86,7 @@ img {
     vertical-align: top;
 }
 
-#main {
+#main, #blog {
     display: table-cell;
     background: #efe5d0 url(../img/background.gif) top left;
     font-size: 105%;
@@ -65,7 +94,7 @@ img {
     vertical-align: top;
 }
 
-#sidebar {
+aside {
     display: table-cell;
     background: #efe5d0 url(../img/background.gif) bottom right;
     font-size: 105%;
@@ -73,7 +102,7 @@ img {
     vertical-align: top;
 }
 
-#footer {
+footer {
     background-color: #675c47;
     color: #efe5d0;
     text-align: center;
