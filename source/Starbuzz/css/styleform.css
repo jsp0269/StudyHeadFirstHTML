@@ -1,0 +1,33 @@
+body {
+    background: #b5a789;
+    margin: 20px;
+}
+
+form {
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #e1ceb8;
+}
+
+form textarea {
+    width: 400px;
+    height: 200px;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow label {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.tableRow p:first-child {
+    text-align: right;
+}
+
+p.heading {
+    font-weight: bold;
+}
