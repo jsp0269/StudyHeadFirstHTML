@@ -26,3 +26,42 @@ h2 {
 blockquote {
     font-style: italic;
 }
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+th {
+    background-color: #cc6600;
+}
+
+tr.cellcolor {
+    background-color: #fcba7a;
+}
+
+td.center {
+    text-align: center;
+}
+
+td.right {
+    text-align: right;
+}
+
+table table th {
+    background-color: white;
+}
+
+ul {
+    list-style-image: url(../img/backpack.gif);
+    padding-top: 5px;
+    margin-left: 20px;
+}
