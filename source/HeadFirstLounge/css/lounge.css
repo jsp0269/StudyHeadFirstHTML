@@ -51,3 +51,63 @@ em {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6em;
 }
+
+#elixirs {
+    background-image: url(../img/cocktail.gif);
+    background-repeat: repeat-x;
+    width: 200px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    text-align: center;
+    border: thin solid #007e7e;
+    line-height: 1;
+    float: right;
+}
+
+#elixirs h2 {
+    color: black;
+}
+
+#elixirs h3 {
+    color: #d12c47;
+}
+
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#elixirs a:link {
+    color: #007e7e;
+}
+
+#elixirs a:visited {
+    color: #333333;
+}
+
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
+}
